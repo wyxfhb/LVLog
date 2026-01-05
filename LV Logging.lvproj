@@ -23,6 +23,7 @@
 			<Item Name="Get Output Dir Path.vi" Type="VI" URL="../Helper Methods/Get Output Dir Path.vi"/>
 		</Item>
 		<Item Name="Tooling" Type="Folder">
+			<Item Name="LV Log.vipb" Type="Document" URL="../Tooling/LV Log.vipb"/>
 			<Item Name="Post Source Distribution.vi" Type="VI" URL="../Tooling/Post Source Distribution.vi"/>
 		</Item>
 		<Item Name="LV Logging.lvlib" Type="Library" URL="../Source/LV Logging.lvlib"/>

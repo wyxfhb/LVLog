@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-05 20:11:08" Modified_Date="2026-01-05 20:25:35" Creator="hughe_cx" Comments="" ID="33e947addda6b9e8c2152646d085daa6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-05 20:11:08" Modified_Date="2026-01-05 20:41:12" Creator="hughe_cx" Comments="" ID="caee50f74699482b50130db7690e49b5">
   <Library_General_Settings>
     <Package_File_Name>Connor_Hughes_lib_LV_Log</Package_File_Name>
-    <Library_Version>0.1.0.4</Library_Version>
+    <Library_Version>0.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
@@ -111,9 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -301,7 +298,7 @@
         <Path>..\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>095582E1DD1CCC9BE86607D0817472E0</GUID>
+      <GUID>A85C0CDC49B108DEEAE94202DD92FACB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -378,7 +375,7 @@
         <Path>..\Source\Configuration\Set Debugging Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38E0DDDE57ABA3C5B4938EF2F24B3C90</GUID>
+      <GUID>D560B738DAAC9D455482259738DFC813</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +410,7 @@
         <Path>..\Examples\Named Loggers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63468662612EC2CD092DFB682DF8A07A</GUID>
+      <GUID>62895E5F394BE912E0A1DEC2775C6B54</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
