@@ -17,6 +17,7 @@
 			<Item Name="Output" Type="Folder" URL="../Examples/Output">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="G-CLI Example.vi" Type="VI" URL="../Examples/G-CLI Example.vi"/>
 			<Item Name="Named Loggers.vi" Type="VI" URL="../Examples/Named Loggers.vi"/>
 		</Item>
 		<Item Name="Helper Methods" Type="Folder">

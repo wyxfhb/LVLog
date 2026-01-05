@@ -16,6 +16,7 @@
 		<Item Name="Registry.lvclass" Type="LVClass" URL="../Registry/Registry.lvclass"/>
 		<Item Name="Sink.lvclass" Type="LVClass" URL="../Sink/Sink.lvclass"/>
 		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
+		<Item Name="G-CLI Sink.lvclass" Type="LVClass" URL="../G-CLI Sink/G-CLI Sink.lvclass"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -26,6 +27,7 @@
 		<Item Name="Create Logger.vi" Type="VI" URL="../Configuration/Create Logger.vi"/>
 		<Item Name="Get Logger.vi" Type="VI" URL="../Configuration/Get Logger.vi"/>
 		<Item Name="Set Debugging Level.vi" Type="VI" URL="../Configuration/Set Debugging Level.vi"/>
+		<Item Name="Create G-CLI Sink.vi" Type="VI" URL="../Configuration/Create G-CLI Sink.vi"/>
 	</Item>
 	<Item Name="Log" Type="Folder">
 		<Item Name="Debug.vi" Type="VI" URL="../Log/Debug.vi"/>
