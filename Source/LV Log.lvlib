@@ -21,12 +21,13 @@
 		<Item Name="Debug Level.ctl" Type="VI" URL="../Type Defs/Debug Level.ctl"/>
 	</Item>
 	<Item Name="Configuration" Type="Folder">
-		<Item Name="Create File Sink.vi" Type="VI" URL="../Configuration/Create File Sink.vi"/>
+		<Item Name="Register File Sink as Default.vi" Type="VI" URL="../Configuration/Register File Sink as Default.vi"/>
 		<Item Name="Create Logger.vi" Type="VI" URL="../Configuration/Create Logger.vi"/>
 		<Item Name="Get Logger.vi" Type="VI" URL="../Configuration/Get Logger.vi"/>
 		<Item Name="Set Debugging Level.vi" Type="VI" URL="../Configuration/Set Debugging Level.vi"/>
-		<Item Name="Create G-CLI Sink.vi" Type="VI" URL="../Configuration/Create G-CLI Sink.vi"/>
-		<Item Name="Register Generic Sink.vi" Type="VI" URL="../Configuration/Register Generic Sink.vi"/>
+		<Item Name="Register G-CLI Sink as Default.vi" Type="VI" URL="../Configuration/Register G-CLI Sink as Default.vi"/>
+		<Item Name="Register Generic Sink as Default.vi" Type="VI" URL="../Configuration/Register Generic Sink as Default.vi"/>
+		<Item Name="Create Default Configuration.vi" Type="VI" URL="../Configuration/Create Default Configuration.vi"/>
 	</Item>
 	<Item Name="Log" Type="Folder">
 		<Item Name="Debug.vi" Type="VI" URL="../Log/Debug.vi"/>
@@ -39,5 +40,7 @@
 		<Item Name="File Sink.lvclass" Type="LVClass" URL="../File Sink/File Sink.lvclass"/>
 		<Item Name="Sink.lvclass" Type="LVClass" URL="../Sink/Sink.lvclass"/>
 		<Item Name="G-CLI Sink.lvclass" Type="LVClass" URL="../G-CLI Sink/G-CLI Sink.lvclass"/>
+		<Item Name="TDMS Sink.lvclass" Type="LVClass" URL="../TDMS/TDMS Sink.lvclass"/>
+		<Item Name="Queue Sink.lvclass" Type="LVClass" URL="../Queue Sink/Queue Sink.lvclass"/>
 	</Item>
 </Library>

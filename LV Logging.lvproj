@@ -15,12 +15,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Output" Type="Folder" URL="../Examples/Output">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 			<Item Name="File Example.vi" Type="VI" URL="../Examples/File Example.vi"/>
+			<Item Name="TDMS Example.vi" Type="VI" URL="../Examples/TDMS Example.vi"/>
 			<Item Name="G-CLI Example.vi" Type="VI" URL="../Examples/G-CLI Example.vi"/>
 			<Item Name="Custom Sink.lvclass" Type="LVClass" URL="../Examples/Custom Sink/Custom Sink.lvclass"/>
+			<Item Name="Custom Example.vi" Type="VI" URL="../Examples/Custom Example.vi"/>
+			<Item Name="Different Sinks for Multiple Loggers Example.vi" Type="VI" URL="../Examples/Different Sinks for Multiple Loggers Example.vi"/>
 		</Item>
 		<Item Name="Helper Methods" Type="Folder">
 			<Item Name="Get Output Dir Path.vi" Type="VI" URL="../Helper Methods/Get Output Dir Path.vi"/>
@@ -33,10 +33,10 @@
 			<Item Name="LV Log.vipb" Type="Document" URL="../Tooling/LV Log.vipb"/>
 			<Item Name="Post Source Distribution.vi" Type="VI" URL="../Tooling/Post Source Distribution.vi"/>
 		</Item>
-		<Item Name="LV Logging.lvlib" Type="Library" URL="../Source/LV Logging.lvlib"/>
+		<Item Name="LV Log.lvlib" Type="Library" URL="../Source/LV Log.lvlib"/>
 		<Item Name="Quick Start.vi" Type="VI" URL="../Examples/Quick Start.vi"/>
 		<Item Name="Singleton.lvlib" Type="Library" URL="../Source/Singleton/Singleton.lvlib"/>
-		<Item Name="Custom Example.vi" Type="VI" URL="../Examples/Custom Example.vi"/>
+		<Item Name="Queue Example.vi" Type="VI" URL="../Examples/Queue Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVLog PPL" Type="Packed Library">
@@ -62,7 +62,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{74055B0F-C4BB-480A-A5FF-6ABF6D776864}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Logging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Log.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -109,7 +109,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{74055B0F-C4BB-480A-A5FF-6ABF6D776864}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Logging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Log.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
