@@ -42,7 +42,7 @@
 		<Item Name="G-CLI Sink.lvclass" Type="LVClass" URL="../Sinks/G-CLI Sink/G-CLI Sink.lvclass"/>
 		<Item Name="TDMS Sink.lvclass" Type="LVClass" URL="../Sinks/TDMS Sink/TDMS Sink.lvclass"/>
 		<Item Name="Queue Sink.lvclass" Type="LVClass" URL="../Sinks/Queue Sink/Queue Sink.lvclass"/>
-		<Item Name="Rotating File Sink.lvclass" Type="LVClass" URL="../Sinks/Rotating File Sink.lvclass"/>
+		<Item Name="Rotating Daily File Sink.lvclass" Type="LVClass" URL="../Sinks/Rotating File Sink/Rotating Daily File Sink.lvclass"/>
 	</Item>
 	<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 </Library>
