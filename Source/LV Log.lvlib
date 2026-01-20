@@ -28,13 +28,14 @@
 		<Item Name="Register G-CLI Sink as Default.vi" Type="VI" URL="../Configuration/Register G-CLI Sink as Default.vi"/>
 		<Item Name="Register Generic Sink as Default.vi" Type="VI" URL="../Configuration/Register Generic Sink as Default.vi"/>
 		<Item Name="Create Default Configuration.vi" Type="VI" URL="../Configuration/Create Default Configuration.vi"/>
+		<Item Name="Register Rotating Time File Sink as Default.vi" Type="VI" URL="../Configuration/Register Rotating Time File Sink as Default.vi"/>
 	</Item>
 	<Item Name="Log" Type="Folder">
-		<Item Name="Debug.vi" Type="VI" URL="../Log/Debug.vi"/>
-		<Item Name="Info.vi" Type="VI" URL="../Log/Info.vi"/>
-		<Item Name="Warn.vi" Type="VI" URL="../Log/Warn.vi"/>
-		<Item Name="Error.vi" Type="VI" URL="../Log/Error.vi"/>
-		<Item Name="Fatal.vi" Type="VI" URL="../Log/Fatal.vi"/>
+		<Item Name="DEPRECATED_Debug.vi" Type="VI" URL="../Log/DEPRECATED_Debug.vi"/>
+		<Item Name="DEPRECATED_Info.vi" Type="VI" URL="../Log/DEPRECATED_Info.vi"/>
+		<Item Name="DEPRECATED_Warn.vi" Type="VI" URL="../Log/DEPRECATED_Warn.vi"/>
+		<Item Name="DEPRECATED_Error.vi" Type="VI" URL="../Log/DEPRECATED_Error.vi"/>
+		<Item Name="DEPRECATED_Fatal.vi" Type="VI" URL="../Log/DEPRECATED_Fatal.vi"/>
 	</Item>
 	<Item Name="Sinks" Type="Folder">
 		<Item Name="File Sink.lvclass" Type="LVClass" URL="../Sinks/File Sink/File Sink.lvclass"/>

@@ -18,8 +18,10 @@
 			<Item Name="File Example.vi" Type="VI" URL="../Examples/File Example.vi"/>
 			<Item Name="TDMS Example.vi" Type="VI" URL="../Examples/TDMS Example.vi"/>
 			<Item Name="G-CLI Example.vi" Type="VI" URL="../Examples/G-CLI Example.vi"/>
+			<Item Name="Rotating Time File Example.vi" Type="VI" URL="../Examples/Rotating Time File Example.vi"/>
 			<Item Name="Custom Sink.lvclass" Type="LVClass" URL="../Examples/Custom Sink/Custom Sink.lvclass"/>
 			<Item Name="Custom Example.vi" Type="VI" URL="../Examples/Custom Example.vi"/>
+			<Item Name="Queue Example.vi" Type="VI" URL="../Examples/Queue Example.vi"/>
 			<Item Name="Different Sinks for Multiple Loggers Example.vi" Type="VI" URL="../Examples/Different Sinks for Multiple Loggers Example.vi"/>
 		</Item>
 		<Item Name="Helper Methods" Type="Folder">
@@ -36,7 +38,6 @@
 		<Item Name="LV Log.lvlib" Type="Library" URL="../Source/LV Log.lvlib"/>
 		<Item Name="Quick Start.vi" Type="VI" URL="../Examples/Quick Start.vi"/>
 		<Item Name="Singleton.lvlib" Type="Library" URL="../Source/Singleton/Singleton.lvlib"/>
-		<Item Name="Queue Example.vi" Type="VI" URL="../Examples/Queue Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -98,6 +99,7 @@
 				<Item Name="Test Suite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/Test Suite.lvclass"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="LUnit Advanced Assertions.lvlib" Type="Library" URL="/&lt;vilib&gt;/Astemes/LUnit/Palette/Advanced Assertions/LUnit Advanced Assertions.lvlib"/>
 				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
