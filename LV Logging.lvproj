@@ -27,23 +27,14 @@
 		<Item Name="Helper Methods" Type="Folder">
 			<Item Name="Get Output Dir Path.vi" Type="VI" URL="../Helper Methods/Get Output Dir Path.vi"/>
 		</Item>
-		<Item Name="Testing" Type="Folder">
-			<Item Name="Helper Methods" Type="Folder">
-				<Item Name="Log Regex Checker.vi" Type="VI" URL="../Testing/Helper Methods/Log Regex Checker.vi"/>
-				<Item Name="Get Log Text Array From Log File.vi" Type="VI" URL="../Testing/Helper Methods/Get Log Text Array From Log File.vi"/>
-			</Item>
-			<Item Name="Basic Class.lvclass" Type="LVClass" URL="../Testing/Basic Class/Basic Class.lvclass"/>
-			<Item Name="Registry.lvclass" Type="LVClass" URL="../Testing/Registry/Registry.lvclass"/>
-			<Item Name="G-CLI Sink.lvclass" Type="LVClass" URL="../Testing/G-CLI Sink/G-CLI Sink.lvclass"/>
-			<Item Name="File Sink.lvclass" Type="LVClass" URL="../Testing/File Sink/File Sink.lvclass"/>
-		</Item>
 		<Item Name="Tooling" Type="Folder">
 			<Item Name="LV Log.vipb" Type="Document" URL="../Tooling/LV Log.vipb"/>
 			<Item Name="Post Source Distribution.vi" Type="VI" URL="../Tooling/Post Source Distribution.vi"/>
 		</Item>
+		<Item Name="Testing.lvlib" Type="Library" URL="../Testing/Testing.lvlib"/>
 		<Item Name="LV Log.lvlib" Type="Library" URL="../Source/LV Log.lvlib"/>
-		<Item Name="Quick Start.vi" Type="VI" URL="../Examples/Quick Start.vi"/>
 		<Item Name="Provider.lvlib" Type="Library" URL="../Source/Provider/Provider.lvlib"/>
+		<Item Name="Quick Start.vi" Type="VI" URL="../Examples/Quick Start.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
