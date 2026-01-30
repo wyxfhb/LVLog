@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-05 20:11:08" Modified_Date="2026-01-16 17:08:01" Creator="hughe_cx" Comments="" ID="b91f136151091dcba087b602e7885351">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-01-05 20:11:08" Modified_Date="2026-01-30 15:11:43" Creator="hughe_cx" Comments="" ID="5e629e86ebcad8664023c3719dd0e3af">
   <Library_General_Settings>
     <Package_File_Name>Connor_Hughes_lib_LV_Log</Package_File_Name>
-    <Library_Version>0.4.0.10</Library_Version>
+    <Library_Version>0.5.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\builds\LV Logging</Library_Output_Folder>
@@ -35,9 +35,11 @@
       <Copyright/>
       <Packager>Connor Hughes</Packager>
       <URL/>
-      <Release_Notes>- Removed the Log interfaces for different log levels and exposed Logger log levels to reduce confusing when using the right click menu on Logger class wire
-- Included a Rotating Time Sink that will create a new log for each new day
-- Now compatible with LabVIEW 2020 and up (32 bit compatible)</Release_Notes>
+      <Release_Notes>- New unit tests for all the basic sink usage
+- Bug fixes discovered by the new unit tests
+- Created Sink destructors
+- Created Sink Initalisers
+- Added Initialise Sinks method to Logger</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -362,7 +364,7 @@
         <Path>..\Source\Logger\Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E2F8907A570B848D74BED4821001C64</GUID>
+      <GUID>15FF0F75FA3EE8AA2006B36DBFA8804C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +455,7 @@
         <Path>..\Source\Sinks\Rotating File Sink\New Rotating Daily File Sink.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83E27ACE281929F53AA23CDC8AC3EA73</GUID>
+      <GUID>9337271565169B6D8CD23DBBFE78A362</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +574,7 @@
         <Path>..\Examples\Rotating Time File Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DAE67AA37ADFEA7498AAF162245F02D</GUID>
+      <GUID>E00355B8898316002CAFBFAF2095080F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
