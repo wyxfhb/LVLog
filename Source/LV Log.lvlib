@@ -10,13 +10,13 @@
 </Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="Registry.lvclass" Type="Friended Library" URL="../../Testing/Registry/Registry.lvclass"/>
-		<Item Name="File Sink.lvclass" Type="Friended Library" URL="../../Testing/File Sink/File Sink.lvclass"/>
+		<Item Name="Testing.lvlib:File Sink.lvclass" Type="Friended Library" URL="../../Testing/File Sink/File Sink.lvclass"/>
 	</Item>
 	<Item Name="Community" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Registry FGV.vi" Type="VI" URL="../Registry FGV.vi"/>
 	</Item>
-	<Item Name="private" Type="Folder">
+	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Registry.lvclass" Type="LVClass" URL="../Registry/Registry.lvclass"/>
 	</Item>
